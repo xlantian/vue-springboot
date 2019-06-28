@@ -1,0 +1,8 @@
+spring: 
+    datasource: 
+        url: jdbc:mysql://localhost:3306/projectmanager?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+        username: root
+        password: 1729456sq
+        driver-class-name: com.mysql.cj.jdbc.Driver
+    resources:
+        static-locations: classpath:/
